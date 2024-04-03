@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url(https://w0.peakpx.com/wallpaper/251/177/HD-wallpaper-youtube-carbon-logo-grunge-art-carbon-background-creative-youtube-black-logo-social-network-youtube-logo-youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+height: 600px;
+width: 500px;
+box-shadow: 8px 8px 20px rgb(128,128,128);
+overflow: hidden;
+position: relative;
+}
+.btn{
+    height: 60px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 30px rgb(254,215,188);
+    border-radius: 50px;
+    display: flex; 
+}
+.sin,
+.sup{
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.slider {
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,
+            rgb(254,215,188),
+            rgb(254,215,188));
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    transition: all 0.5s ease-in-out;
+  }
+  .moveslider {
+    left: 250px;
+  }
+.form{
+    height: 500px;
+    width: 1000px;
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    left: 0px;
+}
+.form-move{
+    left: -500px;
+}
+.signin,
+.signup{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+.signin{
+    gap: 40px;
+}
+.signup{
+    gap: 30px;
+}
+.ele{
+    height: 60px;
+    width: 400px;
+    border: 1px solid whitesmoke;
+    background:transparent;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.clkbtn {
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,
+            rgb(254,215,188),
+            rgb(254,215,188));
+    font-size: 22px;
+    cursor: pointer;
+  }
+@media screen and (max-width: 650px) {
+    .container {
+        height: 400px;
+        width: 100px;
+    }
+    .btn {
+        height: 50px;
+        width: 200px;
+        }
+  
+    .sin,
+    .sup {
+        font-size: 19px;
+    }
+  
+    .slider {
+        height: 50px;
+        width: 100px;
+        left: 50px;
+    }
+  
+    .moveslider {
+        left: 150px;
+    }
+  
+    .form {
+        height: 300px;
+        width: 400px;
+    }
+  
+    .form-move {
+        left: -300px;
+    }
+  
+    .signin,
+    .signup {
+        height: 100%;
+        width: 300px;
+    }
+  
+    .ele {
+        height: 50px;
+        width: 250px;
+        font-size: 15px;
+    }
+  
+    .clkbtn {
+        height: 50px;
+        width: 130px;
+        font-size: 19px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    img{
+        height: 600px;
+        width: 250px;
+    }
+    .container {
+        height: 600px;
+        width: 250px;
+    }
+    .btn {
+        height: 50px;
+        width: 200px;
+        margin: 20px auto;
+    }
+   .signin,
+    .signup  {
+        font-size: 19px;
+    }
+  .slider {
+        height: 50px;
+        width: 100px;
+        left: 27px;
+    }
+   .moveslider {
+        left: 127px;
+    }
+    .form {
+        height: 500px;
+        width: 500px;
+    }
+    .form-move {
+        left: -250px;
+    }
+    .signin,
+    .signup {
+        height: 100%;
+        width: 250px;
+    }
+   .ele {
+        height: 50px;
+        width: 220px;
+        font-size: 15px;
+    }
+   .clkbtn {
+        height: 50px;
+        width: 130px;
+        font-size: 19px;
+    }
+  }
